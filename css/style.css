@@ -334,6 +334,17 @@ body {
   background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f9f9fd;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #3B1D60;
+  border: 1px solid grey;
+}
+
 ._container {
   max-width: 1130px;
   padding: 0px 15px;
